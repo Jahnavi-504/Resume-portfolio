@@ -65,7 +65,7 @@ const Hero = () => {
                   mb: 3,
                 }}
               >
-                Computer Science Engineering Student
+              B.Tech in Computer Science Engineering
               </Typography>
             </motion.div>
 
@@ -84,10 +84,7 @@ const Hero = () => {
                   maxWidth: '600px',
                 }}
               >
-                Driven to apply my technical skills and problem-solving abilities to develop
-                user-friendly web solutions that improve business efficiency. Committed to
-                learning and adapting to new technologies while contributing to the company's
-                growth through innovative solutions and collaborative teamwork.
+Aspiring AI/ML engineer with a passion for building user-friendly and efficient web solutions. Driven by strong technical skills and problem-solving abilities. Currently seeking opportunities in Artificial Intelligence and Machine Learning to apply my knowledge, learn new technologies, and contribute to impactful, innovative projects through collaboration and continuous growth.
               </Typography>
             </motion.div>
 
