@@ -6,6 +6,7 @@ import BusinessIcon from '@mui/icons-material/Business';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import React from 'react';
 
 interface Experience {
   title: string;
@@ -32,12 +33,14 @@ const experiences: Experience[] = [
   },
   {
     title: 'Certifications & Achievements',
+    company: 'Various Institutions',
     duration: '2021 - Present',
     description: [
       'Python For Data Science (NPTEL) from IIT Madras',
       'Data Mining (NPTEL) from IIT Kharagpur',
       'Introduction To Machine Learning (NPTEL) from IIT Kharagpur',
       'Certificate of course completion in  “Data analysis with Python” from IBM in Coursera platform.',
+
     ],
     type: 'education',
   },

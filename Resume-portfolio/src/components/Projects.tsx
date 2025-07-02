@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Blockchain Based Decentralized Voting System',
     description: 'Designed a secure and transparent election system using blockchain technology. Implemented facial verification using DeepFace model (VGG16) and developed Ethereum smart contracts for handling conditions.',
-    technologies: ['Blockchain', 'Ethereum', 'DeepFace', 'Smart Contracts'],
+    technologies: ['Blockchain', 'Ethereum', 'DeepFace', 'Smart Contracts','Flask'],
   },
   {
     title: 'InDepth AI Learning Platform',
