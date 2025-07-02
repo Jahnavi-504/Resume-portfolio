@@ -165,6 +165,7 @@ const About = () => {
                       'Participated in WebCombat And CodeFiesta competitions',
                       'Participated in AITAM AVISHKAAR 2.0 a 48 hours Hackathon',
                       'Completed Advanced coding using C++ in Geeks for Geeks',
+                      'Attended “Data Analysis Using Python” and “Web Development Using Django” workshop conducted by .Andhra Pradesh State Skill Development Corporation',
                     ].map((item, index) => (
                       <motion.li
                         key={index}
