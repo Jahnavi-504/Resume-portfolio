@@ -14,9 +14,9 @@ const skills = [
     items: ['C++', 'Python', 'Java', 'Object-Oriented Programming'],
   },
   {
-    title: 'Web Technologies and FrameWorks',
+    title: 'Web Technologies',
     icon: <DevicesIcon fontSize="large" />,
-    items: ['HTML5', 'CSS3', 'JavaScript','Flask','Django'],
+    items: ['HTML5', 'CSS3', 'JavaScript'],
   },
   {
     title: 'Database Management',
@@ -165,7 +165,6 @@ const About = () => {
                       'Participated in WebCombat And CodeFiesta competitions',
                       'Participated in AITAM AVISHKAAR 2.0 a 48 hours Hackathon',
                       'Completed Advanced coding using C++ in Geeks for Geeks',
-                      'Attended “Data Analysis Using Python” and “Web Development Using Django” workshop conducted by .Andhra Pradesh State Skill Development Corporation',
                     ].map((item, index) => (
                       <motion.li
                         key={index}
