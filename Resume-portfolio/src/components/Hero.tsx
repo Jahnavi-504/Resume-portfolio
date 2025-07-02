@@ -1,4 +1,5 @@
 import React from 'react';
+import myimg from '../assets/myimg.jpg';
 
 const Hero = () => {
   return (
@@ -155,7 +156,6 @@ const Hero = () => {
                   container.style.boxShadow = '0 20px 60px rgba(58, 134, 255, 0.3)';
                 }}
               >
-                {/* Temporary placeholder until you add your photo */}
                 <div
                   style={{
                     width: '100%',
@@ -163,13 +163,17 @@ const Hero = () => {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                    color: 'white',
-                    fontSize: '6rem',
-                    fontWeight: 'bold',
                   }}
                 >
-                  CH
+                  <img 
+                    src={myimg} 
+                    alt="Chowdari Haswanth"
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}
+                  />
                 </div>
               </div>
             </div>
