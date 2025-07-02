@@ -16,16 +16,7 @@ const skills = [
   {
     title: 'Web Technologies and FrameWorks',
     icon: <DevicesIcon fontSize="large" />,
-    items: [
-      {
-        subtitle: 'Languages',
-        list: ['HTML5', 'CSS3', 'JavaScript'],
-      },
-      {
-        subtitle: 'Frameworks',
-        list: ['Flask','Django'],
-      },
-    ],
+    items: ['HTML5', 'CSS3', 'JavaScript','Flask','Django'],
   },
   {
     title: 'Database Management',
