@@ -14,9 +14,18 @@ const skills = [
     items: ['C++', 'Python', 'Java', 'Object-Oriented Programming'],
   },
   {
-    title: 'Web Technologies',
+    title: 'Web Technologies and FrameWorks',
     icon: <DevicesIcon fontSize="large" />,
-    items: ['HTML5', 'CSS3', 'JavaScript'],
+    items: [
+      {
+        subtitle: 'Languages',
+        list: ['HTML5', 'CSS3', 'JavaScript'],
+      },
+      {
+        subtitle: 'Frameworks',
+        list: ['Flask','Django'],
+      },
+    ],
   },
   {
     title: 'Database Management',
